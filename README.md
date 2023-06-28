@@ -49,6 +49,7 @@ This repository contains the initial stage of a student project to build a clone
     * quit - Exits the program (EOF will as well)
 
 AUTHORS(https://github.com/Trisraki/AirBnB_clone-1?organization=Trisraki&organization=Trisraki)
+ delete the swap file ".README.md.swp"
 ##### Alternative Syntax
 Users are able to issue a number of console command using an alternative syntax:
 
