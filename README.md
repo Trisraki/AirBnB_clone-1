@@ -4,6 +4,34 @@ This repository contains the initial stage of a student project to build a clone
 
 ---
 
+# 0x02. AirBnB clone - MySQL
+# **Learning Objectives**
+
+* What is Unit testing and how to implement it in a large project
+* What is *args and how to use it
+* What is **kwargs and how to use it
+* How to handle named arguments in a function
+* How to create a MySQL database
+* How to create a MySQL user and grant it privileges
+* What ORM means
+* How to map a Python Class to a MySQL table
+* How to handle 2 different storage engines with the same codebase
+* How to use environment variables
+
+## Tasks
+
+0. Fork me if you can!
+1. Bug free!
+2. Console improvements
+3. MySQL setup development
+4. MySQL setup test
+5. Delete object
+6. DBStorage - States and Cities
+7. DBStorage - User
+8. DBStorage - Place
+9. DBStorage - Review
+10. DBStorage - Amenity... and BOOM!
+
 <center><h3>Repository Contents by Project Task</h3> </center>
 
 | Tasks | Files | Description |
