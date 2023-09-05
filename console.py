@@ -139,7 +139,7 @@ class HBNBCommand(cmd.Cmd):
 
     def do_all(self, line):
         """Usage: all or all <class> or <class>.all()
-        Display string representations of all instances of a given class.
+        Shows string representations of all instances of a given class.
         If no class is specified, displays all instantiated objects."""
         if not line:
             o = storage.all()
@@ -157,7 +157,7 @@ class HBNBCommand(cmd.Cmd):
             print("** class doesn't exist **")
 
     def do_update(self, line):
-        """Updates an instanceby adding or updating attribute
+        """Updates by adding or updating attribute
         Exceptions:
             SyntaxError: when there is no args given
             NameError: when there is no object taht has the name
@@ -242,8 +242,8 @@ class HBNBCommand(cmd.Cmd):
         return " ".join(i for i in new_list)
 
     def default(self, line):
-        """retrieve all instances of a class and
-        retrieve the number of instances
+        """get all instances of a class and
+        get the number of instances
         """
         my_list = line.split('.')
         if len(my_list) >= 2:
